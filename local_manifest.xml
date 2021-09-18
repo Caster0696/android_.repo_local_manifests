@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+	<remote  name="caster06"
+		fetch="https://github.com/Caster0696" />
+	
 	<remote  name="ankitkene"
 		fetch="https://github.com/keneankit01" />
  
 	<remote  name="los"
 		fetch="https://github.com/LineageOS/" />
  
- 	<project path="device/nokia/PL2" name="android_device_nokia_PL2" remote="ankitkene" revision="lineage-18.1"/>
-       <project path="device/nokia/DRG" name="android_device_nokia_DRG" remote="ankitkene" revision="lineage-18.1"/>
-        <project path="device/nokia/sdm660-common" name="android_device_nokia_sdm660-common" remote="ankitkene" revision="lineage-18.1"/>
-	<project path="kernel/nokia/sdm660" name="android_kernel_nokia_sdm660" remote="ankitkene" revision="Wipe" />
-	<project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="los" revision="lineage-18.1" />
+       <project path="device/nokia/DRG" name="android_device_nokia_DRG" remote="caster06" revision="lineage-18.1"/>
+        <project path="device/nokia/sdm660-common" name="android_device_nokia_sdm660-common" remote="caster06" revision="lineage-18.1"/>
+	<project path="kernel/nokia/sdm660" name="android_kernel_nokia_sdm660" remote="caster06" revision="lineage-18.1" />
 	<project path="vendor/nokia" name="vendor-bringup" remote="ankitkene" revision="DRG-bringup-R"/>
 
 </manifest>
