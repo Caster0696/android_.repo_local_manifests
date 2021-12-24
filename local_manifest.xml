@@ -9,10 +9,13 @@
  
 	<remote  name="los"
 		fetch="https://github.com/LineageOS/" />
- 
-       <project path="device/nokia/DRG" name="android_device_nokia_DRG" remote="caster06" revision="lineage-18.1"/>
-        <project path="device/nokia/sdm660-common" name="android_device_nokia_sdm660-common" remote="caster06" revision="lineage-18.1"/>
-	<project path="kernel/nokia/sdm660" name="android_kernel_nokia_sdm660" remote="caster06" revision="lineage-18.1" />
-	<project path="vendor/nokia" name="vendor-bringup" remote="ankitkene" revision="DRG-bringup-R"/>
+	
+	<remote  name="ancient"
+		fetch="https://github.com/ancient-devices" />
+
+	<project path="device/nokia/DRG" name="android_device_nokia_DRG" remote="caster06" revision="twelve" />
+        <project path="device/nokia/sdm660-common" name="android_device_nokia_sdm660-common" remote="caster06" revision="twelve" />
+	<project path="kernel/nokia/sdm660" name="android_kernel_nokia_sdm660" remote="caster06" revision="twelve" />
+	<project path="vendor/nokia" name="vendor-bringup" remote="caster06" revision="twelve" />
 
 </manifest>
