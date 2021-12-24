@@ -13,9 +13,9 @@
 	<remote  name="ancient"
 		fetch="https://github.com/ancient-devices" />
 
-	<project path="device/nokia/DRG" name="android_device_nokia_DRG" remote="caster06" revision="twelve" />
-        <project path="device/nokia/sdm660-common" name="android_device_nokia_sdm660-common" remote="caster06" revision="twelve" />
-	<project path="kernel/nokia/sdm660" name="android_kernel_nokia_sdm660" remote="caster06" revision="twelve" />
-	<project path="vendor/nokia" name="vendor-bringup" remote="caster06" revision="twelve" />
+	<project path="device/nokia/DRG" name="device_nokia_DRG" remote="caster06" revision="twelve" />
+        <project path="device/nokia/sdm660-common" name="device_nokia_sdm660-common" remote="caster06" revision="twelve" />
+	<project path="kernel/nokia/sdm660" name="kernel_nokia_sdm660" remote="caster06" revision="twelve" />
+	<project path="vendor/nokia" name="vendor_nokia_sdm660" remote="caster06" revision="twelve" />
 
 </manifest>
